@@ -1,0 +1,43 @@
+body {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #fafafa;
+  color: #0d6d8c;
+  font-family: "Lucida Grande","Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB","Hiragino Sans GB W3","Microsoft YaHei UI","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
+
+}
+
+.form-change {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+  margin-top: -10px;
+}
+
+.form-change .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;/*Safari*/
+     -moz-box-sizing: border-box;/*Firefox*/
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.form-change .form-control:focus {
+  z-index: 2;
+}
+#pw1{
+	margin-top: 50px;
+}
+.change {
+  margin-top: 10px;
+}
+
+button{
+  text-align: left;
+  font-size: 18px;
+  margin: 10px 10px 10px 0px;
+  background-color: transparent;
+  border-style: none;
+}

@@ -1,0 +1,20 @@
+.form-control{
+	margin-top: 20px;
+}
+.title{
+	max-width: 380px;
+}
+.post-content{
+
+}
+
+.form-group .btn{
+	margin-top:20px;
+}
+.text-content{
+	font-size: 16px;
+	font-weight: bold;
+}
+.text-info{
+	color: #7e7e7e;
+}
