@@ -3,14 +3,12 @@ var oForm;
 var oBtnSubmit;
 var oPw2;
 var oPw1;
-var oName;
 
 window.onload=function(){
 
 	oPw1 = document.getElementById('pw1');
 	oPw2 = document.getElementById('pw2');
-	oName = document.getElementById('nickname');
-	oForm = document.getElementById('form');
+	oForm = document.getElementById('myForm');
 	oBtnSubmit = document.getElementById('btn-submit');
 
 	flag=0;
@@ -23,9 +21,6 @@ function pw2(){
 	var insertText = " <input type='password' class='form-control password2' placeholder='Password Again'' required=''> ";
 	oPw2.innerHTML = insertText;
 
-	insertText = " <input type='text' name='nickname' class='form-control' placeholder='Nickname'' required=''> ";
-	oName.innerHTML = insertText;
-
 	oForm.action = "./php/register.php";
 
 	insertText = "Register";
@@ -34,7 +29,7 @@ function pw2(){
 
 	flag=1;
 
-	console.log("sign in onclick !");
+	console.log("register in onclick !");
 
 }
 
@@ -43,9 +38,8 @@ function pw1(){
 
 	var insertText="";
 	oPw2.innerHTML = insertText;
-	oName.innerHTML = insertText;
 	oForm.action="./php/login.php";
-	
+
 	insertText="Login";
 	oBtnSubmit.innerHTML = insertText;
 

@@ -9,9 +9,9 @@
     <title>Sport Forum</title>
 
     <!-- Custom styles for this template -->
-    <link href="./css/signin.css" rel="stylesheet">
+    <link href="./css/register.css" rel="stylesheet">
 
-    <script src="./js/signin.js"></script>
+    <script src="./js/register.js"></script>
 
 
   	</head>
@@ -26,15 +26,14 @@
 
     		<br>
     		<button id="btn-login" onclick="pw1()">Login</button>
-    		<button id="btn-signin" onclick="pw2()">Register</button>
+    		<button id="btn-register" onclick="pw2()">Register</button>
 
     	</header>
-    	
 
-    	
-    	<form class="form-signin" id="form" role="form" action="./php/login.php" method="post">
 
-            <input type="username" name="username" class="form-control" placeholder="Username" required="" autofocus="">
+    	<form class="form" id="myForm" role="form" action="./php/login.php" method="post">
+
+            <input type="text" name="username" class="form-control" placeholder="Username" required="" autofocus="">
 
             <input type="password" id="pw1" name="password" class="form-control" placeholder="Password" required="">
 
@@ -67,10 +66,10 @@
 
       </form>
 
-            
+
 
     </div> <!-- /container -->
-  
+
 
 </body>
 

@@ -11,7 +11,6 @@ require './dbconnect.php';
 $username = $_POST['username'];
 $password = $_POST['password'];
 
-print_r("post: ".$username." ".$password."<br>");
 
 //$con is the connection between web and db
 
