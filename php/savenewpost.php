@@ -21,7 +21,7 @@ $username = $_SESSION['username'];
 $title = $_POST['title'];
 $content = $_POST['content'];
 
-//存title,content,author至表list
+//save title,content,author to table list
 $sql = "insert into list (title,content,author) VALUES ('$title','$content','$username')";
 $res = mysqli_query($con, $sql);
 

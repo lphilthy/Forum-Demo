@@ -62,7 +62,7 @@
                     //1=admin, 0=normal user
                     if($admin==1)
                     {
-                        echo '<li><a href="./manage.php">Managing Panel</a></li>';
+                        echo '<li><a href="./manage.php">Management Panel</a></li>';
                     }
                 ?>
 
@@ -79,7 +79,7 @@
             <h1 >Sport</h1>
         </div>
 
-        <a name="top"></a><!-- 一个锚点，回到顶部 -->
+        <a name="top"></a><!-- back to top -->
 
         <div class="row">
             <div class="col-md-5ths">

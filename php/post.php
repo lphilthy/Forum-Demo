@@ -80,12 +80,6 @@ post.php格式：post.php?no=XXX&name=XXX
         $res = mysqli_query($con, "select * from list where no = $postno;");
         $row = mysqli_fetch_array($res);
 
-        /*
-        print_r("title: ".$row['title']."<br>");
-        print_r("author: ".$row['author']."<br>");
-        print_r("content: ".$row['content']."<br>");
-        print_r("time: ".$row['time']);
-        */
     ?>
     <div class="container">
 
