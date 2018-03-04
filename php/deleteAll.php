@@ -16,7 +16,7 @@
     $username=$_SESSION['username'];
 
 
-    //catch no. if no = 1 means delete comments
+    //catch no. if no = 1 means delete thread
     $no=$_GET['no'];
 
     require './dbconnect.php';
