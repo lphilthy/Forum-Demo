@@ -7,9 +7,9 @@
 
 /*connect to the database*/
     define('HOST', 'localhost');     // The host you want to connect to.
-    define('USER', 'root');       // The database username.
-    define('PASSWORD', '' );   // The database password.
-    define('DATABASE', 'miniforum');   // The database name.
+    define('USER', 'info600');       // The database username.
+    define('PASSWORD', '12345' );   // The database password.
+    define('DATABASE', 'SPORT');   // The database name.
     define('PORT', '');         // The database port.
 
     $con = mysqli_connect(HOST,USER,PASSWORD,DATABASE);
