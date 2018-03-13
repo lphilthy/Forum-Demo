@@ -36,6 +36,7 @@ interface.
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
     <link href="../css/dashboard.css" rel="stylesheet">
+    <link href="../css/manage.css" rel="stylesheet">
     <link href="../css/theme.css" rel="stylesheet">
     <script src="../js/dropdown.js"></script>
     <script src="../js/manage.js"></script>
@@ -45,6 +46,11 @@ interface.
 <body>
 
     <!-- Fixed navbar -->
+    <div class="page-header text-center" >
+            <img src="logo.png" style="width: 70%">
+            
+        </div>
+    
     <nav class="navbar navbar-fixed-top nav-manage" role="navigation" >
 
         <div class="container">
@@ -103,10 +109,10 @@ interface.
                 <table class="table table-striped">
                     <thead>
                         <tr>
-                            <th>Username</th>
-                            <th>Delete this user</th>
-                            <th>Delete all posts of this user</th>
-                            <th>Delete all thread create from this user</th>
+                            <th >Username</th>
+                            <th style="font-size: 15px;color: red" >Delete this user</th>
+                            <th style="font-size: 15px;color: red" >Delete all posts from this user</th>
+                            <th style="font-size: 15px;color: red" >Delete all threads created by this user</th>
                         </tr>
                     </thead>
 

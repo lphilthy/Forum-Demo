@@ -31,7 +31,7 @@ $username = $_SESSION['username'];
 
     <!-- Custom styles for this template -->
     <link href="../css/theme.css" rel="stylesheet">
-    <link href="../css/post.css" rel="stylesheet">
+    <link href="../css/newpost.css" rel="stylesheet">
 
     <!-- New post javascript-->
     <script src="../js/dropdown.js"></script>
@@ -41,7 +41,9 @@ $username = $_SESSION['username'];
 <body data-gr-c-s-loaded="true">
 
 <!-- Fixed navbar -->
+    
     <nav class="navbar navbar-fixed-top" role="navigation" >
+   
 
         <div class="container">
 
@@ -78,7 +80,7 @@ $username = $_SESSION['username'];
         <form role="form" action="./savenewpost.php" method="post">
             <div class="form-group">
                 <input type="text" name="title" class="form-control title" maxlength="30" placeholder="Input title">
-                <textarea name="content" class="form-control post-content" rows="10" placeholder="Enput content"></textarea>
+                <textarea name="content" class="form-control post-content" rows="10" placeholder="Input content"></textarea>
 
                 <button type="submit" class="btn btn-lg btn-primary">Publish</button>
 

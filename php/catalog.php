@@ -22,13 +22,14 @@
 
     <!-- Custom styles for this template -->
     <link href="../css/theme.css" rel="stylesheet">
+    <link href="../css/catalog.css" rel="stylesheet">
     <script src="../js/dropdown.js"></script>
 
     <?php
 
     if(empty($_SESSION['username']))
     {
-        include './destroy.php';//destory session
+        include './destroy.php';//destroy session
         exit();
     }
     $username=$_SESSION['username'];
@@ -140,7 +141,7 @@ function showSlides() {
     <div class="jumbotron">
         <div class="row">
             <div class="col-md-5ths ">
-                <h2 >Latest Threads</h2>
+                <h2>Latest Threads</h2>
                 <table class="table table-striped">
                     <thead>
                         <tr>
@@ -200,10 +201,10 @@ function showSlides() {
     <div class="col-sm-4 col-xs-12">
       <div class="panel panel-default text-center">
         <div class="panel-heading">
-          <h1>Schedules</h1>
+            <h1><img src="calendar.png" style="width:10%">Schedules</h1>
         </div>
         <div class="panel-body">
-          <p>calender</p>
+          <p>Calendar</p>
           <p>1</p>
           <p>2</p>
           <p>3</p>
@@ -218,7 +219,7 @@ function showSlides() {
     <div class="col-sm-4 col-xs-12">
       <div class="panel panel-default text-center">
         <div class="panel-heading">
-          <h1>Stars</h1>
+          <h1><img src="star.png" style="width:10%">Stars</h1>
         </div>
         <div class="panel-body">
             <p><a href="http://www.google.com">A</a></p>
@@ -238,7 +239,7 @@ function showSlides() {
     <div class="col-sm-4 col-xs-12">
       <div class="panel panel-default text-center">
         <div class="panel-heading">
-          <h1>Twitter</h1>
+            <h1><img src="twitter.png" style="width:10%">Twitter</h1>
         </div>
         <div class="panel-body">
           <p>A</p>
